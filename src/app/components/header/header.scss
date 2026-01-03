@@ -1,9 +1,36 @@
 header {
+    height: 70px;
     display: flex;
     padding-inline: 16px;
     padding-block: 8px;
-    background-color: Y#3519d2;
-    color: rgb(226, 231, 235)
-    justify-content space-between;
+    background-color: #1b0597;
+    color: rgb(233, 237, 240);
+    justify-content: space-between;
     align-items: center;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > span {
+        &:hover {
+            color: #777;
+            cursor: pointer;
+        }
+
+}
+
+ul {
+    list-style: none;
+
+    li {
+        &:hover {
+            color: #777;
+            cursor: pointer;
+        }
+    }
+}
 }

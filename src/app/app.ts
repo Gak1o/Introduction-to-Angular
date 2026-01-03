@@ -9,13 +9,14 @@ import { Header } from './components/header/header';
   template: `
     <app-header/>
     <main>
-      
+      <router-outlet /> 
     </main>
 
   `,
   styles: [ `
   main {
    padding: 16px;
+   background-color: #fdfcfdff;
 
   }
 `
