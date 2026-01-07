@@ -6,12 +6,10 @@ import { Component, inject, OnInit } from '@angular/core';
   templateUrl: './todos.html',
   styleUrl: './todos.scss',
 })
-export class Todos  implements OnInit {
-todoService = inject(TodosService);
+export class Todos  {
+ todoS
 
-
-ngOnInit(): void {
   
-  console.log(this.todoService.todoItems);
-}
+  }
+
 }

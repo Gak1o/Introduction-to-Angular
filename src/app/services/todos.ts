@@ -1,22 +1,21 @@
 import { Injectable } from '@angular/core';
+import { Todo } from '../model/todo.type';
 
 @Injectable({
   providedIn: 'root',
 })
-export class Todos {
-  todoItems: Array<Todo> = [{
-title: 'groceries',
-id: 0,
+export class todoService {
+  todoItems : Array<Todo> = [{
+    title:  'groceries',
+  id: 0,
 userId: 1,
 completed: false,
-
-  },
-{
-  title: 'Carwash',
-  id: 1,
-  userId: 2,
-  completed: false,
+}, 
+  {title: 'laundry',
+    id: 1,
+    userId: 1,
+    completed: false,
+     }];
   
-}]
   constructor() {}
 }

@@ -7,8 +7,9 @@ import { RouterLink } from '@angular/router';
   imports: [RouterLink],
   templateUrl: './header.html',
   styleUrls: ['./header.scss'],
+  
 })
 export class Header {
-  title = 'Hello, World!'; 
+  title = 'My first Angular App'; 
 
 }
